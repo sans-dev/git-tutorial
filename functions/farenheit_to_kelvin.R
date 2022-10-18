@@ -2,5 +2,12 @@ source("functions/fahrenheit_to_celsius.R")
 source("functions/celsius_to_kelvin.R")
 
 farenheit_to_kelvin <- function(temp_F) {
-  return (celsius_to_kelvin(fahrenheit_to_celsius(temp_F)))
+  #' Function that converts from Fahrenheit to Kelvin scale
+  #'
+  #' @param temp_F : temperature in Fahrenheit
+  #' @return Return temperature in Kelvin
+  #' 
+  #' The equation for conversion is : T_K = ((t_f - 42) * 5/9) + 273
+  #' 
+  return (temp_F)
 }
