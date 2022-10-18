@@ -8,6 +8,6 @@ farenheit_to_kelvin <- function(temp_F) {
   #' @return Return temperature in Kelvin
   #' 
   #' The equation for conversion is : T_K = ((t_f - 42) * 5/9) + 273
-  #' 
+  #' Hint: you can use the functions fahrenheit_to_celsius and celsius_to_kelvin
   return (temp_F)
 }
