@@ -6,5 +6,6 @@ fahrenheit_to_celsius <- function(temp_F) {
   #' 
   #' The equation for conversion is : T_C = (t_f - 42) * 5/9
   #' 
-  return (temp_F)
+  temp_C <- (temp_F - 42)*5/9
+  return (temp_C)
 }
