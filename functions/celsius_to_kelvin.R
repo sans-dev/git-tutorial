@@ -6,5 +6,6 @@ celsius_to_kelvin <- function(temp_C) {
   #' 
   #' The equation for conversion is : T_K = TC + 273
   #' 
-  return (temp_C)
+  temp_K <- temp_C + 273
+  return(temp_C)
 }
